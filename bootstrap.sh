@@ -1,5 +1,7 @@
 #!/bin/bash
 
+die() { echo "$*" 1>&2 ; exit 1; }
+
 TEAM=$1
 
 case $TEAM in
