@@ -1,4 +1,10 @@
-#!/bin/bash
+#!/bin/bash -e
+
+SCRIPTNAME=$0
+die() {
+	echo "$SCRIPTNAME: $1"
+	exit 1
+}
 
 die() { echo "$*" 1>&2 ; exit 1; }
 
