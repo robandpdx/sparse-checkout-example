@@ -11,7 +11,7 @@ GIT
 GEM
   remote: https://rubygems.org/
   specs:
-    RedCloth (4.2.9)
+    RedCloth (4.3.0)
     addressable (2.8.1)
       public_suffix (>= 2.0.2, < 6.0)
     blankslate (2.1.2.4)
